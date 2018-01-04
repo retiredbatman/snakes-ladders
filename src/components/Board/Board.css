@@ -1,0 +1,42 @@
+.Board-tile {
+  /* padding: 5px;
+  border: 1px solid;
+  float: left;
+  width: 30px;
+  height: 30px; */
+  background-color: red;
+  opacity: 0.7;
+  height: 48px;
+  border: solid 1px #ccc;
+  text-align: center;
+  width: 86px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.Board-row {
+  overflow: hidden;
+}
+
+.Board-image {
+  background-image: url(https://s28.postimg.org/fuwjoqf59/snake_ladder_ludo_print_play_4440150.jpg);
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 1000px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: 1000px 600px;
+  z-index: 1;
+}
+
+.Board-wrap {
+  position: relative;
+}
+
+.Board-board {
+  position: absolute;
+  top: 33px;
+  left: 58px;
+}

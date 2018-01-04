@@ -1,0 +1,9 @@
+.Player-player {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #7af87a;
+  z-index: 2;
+  transition: all 1s linear;
+}

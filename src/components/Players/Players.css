@@ -1,0 +1,18 @@
+.Players-disp {
+  top: 300px;
+  position: relative;
+  float: right;
+  right: -70px;
+  list-style-type: none;
+}
+
+.Players-disp li {
+  padding: 23px;
+  border: 1px solid #aaa;
+  margin: 10px 0px;
+  box-shadow: 0px 0px 10px #aaa;
+}
+
+.Players-active {
+  color: red;
+}
